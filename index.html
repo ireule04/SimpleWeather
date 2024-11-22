@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weather App </title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="input" type="text" placeholder="Enter city name">
+            <button id="search"><img src="search-icon-free-vector.jpg"></button>
+        </div>
+        
+        
+        <div class="weather">
+            <img id="weather_icon">
+            <p class="description-text"> Sunny</p>
+             <h1 class="temp">10.22° C</h1>
+            <h2 class="city">Pokhara</h2>
+            <p class="date">8 April 2024</p>
+            
+            <div class="details">
+                <div class="col">
+                    <i class='bx bx-droplet'></i>
+                    <div>
+                        <p class="humidity">46%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    
+                    <i class='bx bx-wind'></i>
+                    <p class="wind">3 km/h</p>
+                    <p>Wind Speed</p>
+                    
+                </div>
+            </div>
+            <div id="weatherDisplay"></div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
